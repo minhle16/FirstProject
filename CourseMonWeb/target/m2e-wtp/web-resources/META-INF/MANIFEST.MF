@@ -1,5 +1,10 @@
 Manifest-Version: 1.0
 Built-By: Minh Moc
 Build-Jdk: 10.0.2
+Implementation-Title: ProductManagement
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.demo.spring
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/ProductManagement
 Created-By: Maven Integration for Eclipse
 
