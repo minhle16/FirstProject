@@ -33,15 +33,20 @@ public class LoginController {
 
 	@RequestMapping(value = "/registration", method = RequestMethod.GET)
 	public ModelAndView registration() {
-		ModelAndView modelAndView = new ModelAndView("registration");
-		User user = new User();
-		modelAndView.addObject("user", user);
-	/*	modelAndView.setViewName("registration");*/
+		ModelAndView modelAndView = new ModelAndView();
+		/*User user = new User();
+		modelAndView.addObject("user", user);*/
+		modelAndView.setViewName("registration");
 		return modelAndView;
 	}
 
 	@RequestMapping(value = "/registration", method = RequestMethod.POST)
 	public ModelAndView createNewUser(@Valid User user, BindingResult bindingResult) {
+		if(user!=null) {
+			System.out.println("userName: "+user.getName());
+		}else {
+			System.out.println("user is null");
+		}
 		ModelAndView modelAndView = new ModelAndView();
 		User userExists = userService.findUserByEmail(user.getEmail());
 		if (userExists != null) {

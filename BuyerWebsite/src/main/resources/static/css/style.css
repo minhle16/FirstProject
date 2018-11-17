@@ -40,7 +40,7 @@ body a{
 	display: block;
 	position: relative;
 }
-.search-form .column input[type="text"], .search-form .column input[type="submit"], .search-form .column select {
+.search-form .column input[type="text,password"], .search-form .column input[type="submit"], .search-form .column select {
 	width: 100%;
 }
 .selection-box select {
@@ -55,7 +55,7 @@ body a{
   position: relative;
   float: left;
 }
-.search input[type="text"] {
+.search input[type="text, passord"] {
 	border: none;
 	outline: none;
 	background: none;
@@ -70,7 +70,7 @@ body a{
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 }
-.search input[type="text"]:focus{
+.search input[type="text, passord"]:focus{
 	width:160px;
 }
 .search input[type="submit"] {
@@ -94,7 +94,7 @@ body a{
 .three-fifth {
 	width: 59.2%;
 }
-.three-fifth input[type="text"]{
+.three-fifth input[type="text, passord"]{
 	background: #fff;
 	border: 1px solid #ddd;
 	color: #CDCDCD;
@@ -1881,7 +1881,7 @@ a.b-home:hover{
 	line-height:1.8em;
 	margin-bottom:1em;
 }
-.column_2 input[type="text"] {
+.column_2 input[type="text, passord"] {
   padding: 10px;
   font-size: 1em;
   margin: 10px 0;
@@ -1897,7 +1897,7 @@ a.b-home:hover{
   width: 31.5%;
   -webkit-appearance: none;
 }
-.column_3 input[type="text"], .column_3 textarea {
+.column_3 input[type="text, passord"], .column_3 textarea {
   width: 100%;
   font-size: 1em;
   margin: 10px 0;
@@ -1986,7 +1986,7 @@ a.b-home:hover{
 	padding-bottom: 0.2em;
 	display: block;
 }
-.login-right input[type="text"] {
+.login-right input[type="text, passord"] {
 	border: 1px solid #DDDBDB;
 	outline-color:#fb4d01;
 	width: 96%;
@@ -2045,7 +2045,7 @@ p.cart {
 	padding-bottom: 0.2em;
 	display: block;
 }
-.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+.register-top-grid input[type="text, passord"], .register-bottom-grid input[type="text, passord"] {
 	border: 1px solid #EEE;
 	outline-color:#FF5B36;
 	width: 96%;
@@ -2454,7 +2454,7 @@ li.middle {
 	left: 4px;
 	top: 30px;
 }
-.comments-area input[type="text"] {
+.comments-area input[type="text, passord"] {
 	padding: 15px 20px;
 	width:80%;
 	color: #999;
@@ -2566,10 +2566,10 @@ ul.single_social li {
 .box_11 {
   padding: 5px;
 }
-.search input[type="text"] {
+.search input[type="text, passord"] {
   width: 110px;
 }
-.search input[type="text"]:focus{
+.search input[type="text, passord"]:focus{
 	width:100px;
 }
 .logo{
@@ -2587,10 +2587,10 @@ ul.single_social li {
   width: 68.333333% !important;
   float: left;
 }
-.search input[type="text"] {
+.search input[type="text, passord"] {
   width: 60px;
 }
-.search input[type="text"]:focus{
+.search input[type="text, passord"]:focus{
 	width:50px;
 }
 .logo h1 {
@@ -2648,10 +2648,10 @@ ul.single_social li {
 .col-xs-4.header-bottom-right {
   width: 45.333333%;
 }
-.search input[type="text"] {
+.search input[type="text, passord"] {
   width: 110px;
 }
-.search input[type="text"]:focus{
+.search input[type="text, passord"]:focus{
 	width:100px;
 }
 .menu {
@@ -2799,7 +2799,7 @@ ul.list {
   width: 53% !important;;
   float: right;
 }
-.search input[type="text"] {
+.search input[type="text, passord"] {
   width:80px;
   font-size:0.8125em;
   padding:5px 5px 7px 5px;
@@ -2832,7 +2832,7 @@ p.empty {
 .comments-area {
   margin-top: 0em;
 }
-.comments-area input[type="text"], .comments-area textarea{
+.comments-area input[type="text, passord"], .comments-area textarea{
   padding: 10px 10px;
   width: 100%;
 }  
@@ -2987,7 +2987,7 @@ h3.m_2 {
 .contact_left h1 {
   font-size: 1.2em;
 } 
-.column_3 input[type="text"], .column_3 textarea {
+.column_3 input[type="text, passord"], .column_3 textarea {
  	height: 120px;
 }
 .form-submit1 input[type="submit"] {
@@ -3011,5 +3011,8 @@ ul#etalage {
 a.b-home {
  padding: 0.3em 0.5em;
 }
+}
+input.form-control {
+    width: 98%;
 }
 
