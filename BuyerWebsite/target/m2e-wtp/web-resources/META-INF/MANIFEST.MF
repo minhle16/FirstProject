@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Minh Moc
+Build-Jdk: 10.0.2
+Implementation-Title: BuyerWebsite
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: SpringWeb
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/BuyerWebsite
+Created-By: Maven Integration for Eclipse
+

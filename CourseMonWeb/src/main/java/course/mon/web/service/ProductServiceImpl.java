@@ -1,6 +1,7 @@
 package course.mon.web.service;
 
 import java.util.ArrayList;
+
 import java.util.List;
 
 import javax.persistence.PersistenceException;
@@ -9,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import course.mon.web.entities.Product;
-import course.mon.web.repositories.ProductRepository;
 import course.mon.web.vo.ProductVo;
+import  course.mon.web.repositories.*;
 
 
 
@@ -18,7 +19,7 @@ import course.mon.web.vo.ProductVo;
 public class ProductServiceImpl implements ProductService {
 
 	@Autowired
-	private ProductRepository repository;
+	private ProducctRepository repository;
 	
 	@Override
 	public List<ProductVo> getAllProduct() {

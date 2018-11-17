@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<!-- Base Define -->
+	<definition name="base.definition" template="/WEB-INF/common/classic.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/common/header.jsp" />
+		<put-attribute name="banner" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/common/footertwo.jsp" />
+	</definition>
+
+	<definition name="homePage" extends="base.definition">
+		<put-attribute name="title" value="Home Page" />
+		<put-attribute name="banner" value="/WEB-INF/common/banner.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/body.jsp" />
+	</definition>
+	
+	<definition name="productListPage" extends="base.definition">
+		<put-attribute name="title" value="Product List" />
+		<put-attribute name="navigator" value="/WEB-INF/common/banner.jsp" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/product.jsp" />
+	</definition>
+	
+<!-- 	<definition name="detailProductPage" extends="base.definition"> -->
+<!-- 		<put-attribute name="title" value="Detail Product" /> -->
+<!-- 		<put-attribute name="body" -->
+<!-- 			value="/WEB-INF/products/detail_product.jsp" /> -->
+<!-- 	</definition> -->
+
+	<!-- -ADMIN START -->
+	<definition name="baseadmin.definition" template="/WEB-INF/common/classicAdmin.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="sidebar" value="/WEB-INF/common/sidebarAdmin.jsp" />
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	<definition name="homeAdminPage" extends="baseadmin.definition">
+		<put-attribute name="title" value="Home Admin Page" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/admin/dashboard.jsp" />
+	</definition>
+	
+	<definition name="productListAdminPage" extends="baseadmin.definition">
+		<put-attribute name="title" value="Product List - Admin" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/product/productList.jsp" />
+	</definition>
+	
+	<definition name="editProductAdminPage" extends="baseadmin.definition">
+		<put-attribute name="title" value="Edit Product - Admin" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/product/editProduct.jsp" />
+	</definition>
+	
+	<definition name="createProductAdminPage" extends="baseadmin.definition">
+		<put-attribute name="title" value="Create Product - Admin" />
+		<put-attribute name="content"
+			value="/WEB-INF/views/product/createProduct.jsp" />
+	</definition>
+	<!-- -ADMIN END -->
+	
+</tiles-definitions>

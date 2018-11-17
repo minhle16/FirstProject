@@ -15,12 +15,12 @@ public class HomeController {
 	@Autowired
 	private ProductService service;
 	
-	@RequestMapping(value = {"/", "", "/index" })
+	@RequestMapping(value = {"/", "", "/index" }, produces="application/x-www-form-urlencoded;charset=UTF-8")
 	public String index() {
 		return "homePage";
 	}
 
-	@RequestMapping(value = "/product")
+	@RequestMapping(value = "/product", produces="application/x-www-form-urlencoded;charset=UTF-8")
 	public ModelAndView products() {
 		
 		ModelAndView m = new ModelAndView("productListPage");
