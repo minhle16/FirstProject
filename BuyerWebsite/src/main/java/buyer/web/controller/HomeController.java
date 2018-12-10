@@ -21,22 +21,22 @@ public class HomeController {
 	@RequestMapping(value = { "/index", "/" }, method = RequestMethod.GET)
 	public ModelAndView index() {
 		ModelAndView m = new ModelAndView("homePage");
-		// System.out.println("HomeCotroller "+titleService.getTitle().size());
-		// List<TitleVo> result = titleService.getTitle();
-		// for(TitleVo x : result) {
-		// System.out.println("x: "+x.getContent());
-		// }
 		m.addObject("listTitle", titleService.getTitle());
 		m.addObject("title", "Trang chủ");
-		System.out.println(m.toString());
 		return m;
 	}
 	
+	@RequestMapping(value = { "/menProduct" }, method = RequestMethod.GET)
+	public ModelAndView showProductMen() {
+		ModelAndView m = new ModelAndView("menProduct");
+
+		return m;
+	}
+	@RequestMapping(value = { "/womenProduct" }, method = RequestMethod.GET)
+	public ModelAndView showProductWomen() {
+		ModelAndView m = new ModelAndView("womenProduct");
+		return m;
+	}
 	
-	/*
-	 * public static void main(String[] args) { System.out.println("start"); int
-	 * a = titleService.getTitle().size(); System.out.println(a);
-	 * System.out.println("done"); }
-	 */
 
 }

@@ -2,16 +2,14 @@ package buyer.web.controller;
 
 import javax.validation.Valid;
 
-
-import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.security.core.*;
 
 import buyer.web.entities.User;
 import buyer.web.service.UserService;
@@ -26,27 +24,22 @@ public class LoginController {
 
 	@RequestMapping(value = { "/login" }, method = RequestMethod.GET)
 	public ModelAndView login() {
-		ModelAndView modelAndView = new ModelAndView("login");
-		/*modelAndView.setViewName("login");*/
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("login");
 		return modelAndView;
 	}
 
 	@RequestMapping(value = "/registration", method = RequestMethod.GET)
 	public ModelAndView registration() {
 		ModelAndView modelAndView = new ModelAndView();
-		/*User user = new User();
-		modelAndView.addObject("user", user);*/
+		User user = new User();
+		modelAndView.addObject("user", user);
 		modelAndView.setViewName("registration");
 		return modelAndView;
 	}
 
 	@RequestMapping(value = "/registration", method = RequestMethod.POST)
 	public ModelAndView createNewUser(@Valid User user, BindingResult bindingResult) {
-		if(user!=null) {
-			System.out.println("userName: "+user.getName());
-		}else {
-			System.out.println("user is null");
-		}
 		ModelAndView modelAndView = new ModelAndView();
 		User userExists = userService.findUserByEmail(user.getEmail());
 		if (userExists != null) {
@@ -68,7 +61,7 @@ public class LoginController {
 	@RequestMapping(value = "/admin/home", method = RequestMethod.GET)
 	public ModelAndView home() {
 		ModelAndView modelAndView = new ModelAndView();
-		org.springframework.security.core.Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		User user = userService.findUserByEmail(auth.getName());
 		modelAndView.addObject("userName",
 				"Welcome " + user.getName() + " " + user.getLastName() + " (" + user.getEmail() + ")");

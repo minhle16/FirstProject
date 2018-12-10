@@ -1,5 +1,6 @@
 package buyer.web.entities;
 
+import java.io.Serializable;
 import java.util.Set;
 
 
@@ -21,7 +22,7 @@ import org.springframework.data.annotation.Transient;
 
 @Entity
 @Table(name = "user")
-public class User {
+public class User implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

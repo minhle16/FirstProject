@@ -27,7 +27,7 @@
 				</div>
 				<div class="col-xs-6 menu">
 		            <ul class="megamenu skyblue">
-				      <li class="active grid"><a class="color1" href="${pageContext.request.contextPath}/men">Men</a><div class="megapanel">
+				      <li class="active grid"><a class="color1" href="${pageContext.request.contextPath}/menProduct">Men</a><div class="megapanel">
 						<div class="row">
 							<div class="col1">
 								<div class="h_nav">

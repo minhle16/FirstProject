@@ -30,18 +30,24 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	@Value("${spring.queries.roles-query}")
 	private String rolesQuery;
 
+
+//login thành công hay không
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 		auth.jdbcAuthentication().usersByUsernameQuery(usersQuery).authoritiesByUsernameQuery(rolesQuery)
 				.dataSource(dataSource).passwordEncoder(bCryptPasswordEncoder);
 	}
-
+	//nếu thành công thì thế nào
+	//csrf : phương thức login từ 1 hệ thống khác sang
+	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 
 		http.authorizeRequests().antMatchers("/").permitAll()
 		.antMatchers("/login").permitAll()
-				.antMatchers("/registration").permitAll().
+				.antMatchers("/registration").permitAll()
+				.antMatchers("/menProduct").permitAll()
+				.antMatchers("/womenProduct").permitAll().
 				antMatchers("/admin/**").hasAuthority("ADMIN").anyRequest()
 				.authenticated().
 				and().
