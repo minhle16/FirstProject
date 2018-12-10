@@ -19,16 +19,47 @@ public class HomeController {
 	public String index() {
 		return "homePage";
 	}
-
-	@RequestMapping(value = "/product", produces="application/x-www-form-urlencoded;charset=UTF-8")
-	public ModelAndView products() {
-		
-		ModelAndView m = new ModelAndView("productListPage");
-		m.addObject("msg", "Spring Hello");
-				
-		m.addObject("msg", "Spring Hello1");
-		m.addObject("allProduct", service.getAllProduct());
+	@RequestMapping(value = "/aboutPage", produces="application/x-www-form-urlencoded;charset=UTF-8")
+	public ModelAndView aboutPage() {
+		ModelAndView m = new ModelAndView("aboutPage");
 		return m;
 	}
+	
+	@RequestMapping(value = "/blogPage", produces="application/x-www-form-urlencoded;charset=UTF-8")
+	public ModelAndView blogPage() {
+		ModelAndView m = new ModelAndView("blogPage");
+		return m;
+	}
+	
+	@RequestMapping(value = "/contactPage", produces="application/x-www-form-urlencoded;charset=UTF-8")
+	public ModelAndView contactPage() {
+		ModelAndView m = new ModelAndView("contactPage");
+		return m;
+	}
+	
+	@RequestMapping(value = "/coursesPage", produces="application/x-www-form-urlencoded;charset=UTF-8")
+	public ModelAndView coursesPage() {
+		ModelAndView m = new ModelAndView("coursesPage");
+		return m;
+	}
+	
+	@RequestMapping(value = "/singlePage", produces="application/x-www-form-urlencoded;charset=UTF-8")
+	public ModelAndView singlePage() {
+		ModelAndView m = new ModelAndView("singlePage");
+		return m;
+	}
+	
+	@RequestMapping(value = "/loginPage", produces="application/x-www-form-urlencoded;charset=UTF-8")
+	public ModelAndView loginPage() {
+		ModelAndView m = new ModelAndView("loginPage");
+		return m;
+	}
+	
+	@RequestMapping(value = "/registrationPage", produces="application/x-www-form-urlencoded;charset=UTF-8")
+	public ModelAndView registrationPage() {
+		ModelAndView m = new ModelAndView("registrationPage");
+		return m;
+	}
+	
 
 }

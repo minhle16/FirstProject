@@ -16,3 +16,6 @@ body {
 	display: flex;
 	flex-wrap: nowrap;
 }
+h3 {
+    color: rebeccapurple;
+}

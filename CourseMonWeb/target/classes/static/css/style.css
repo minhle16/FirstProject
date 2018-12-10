@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
 body {
-    color: #383749;
+    color: black;
     font-size: 16px;
     line-height: 1.8;
    /*  font-family: 'Roboto', sans-serif; */
@@ -15,15 +15,15 @@ img {
 # Links
 --------------------------------------------------------------*/
 a {
-    color: #383749;
+    color: black;
 }
 
 a:visited {
-    color: #757686;
+    color: black;
 }
 
 a:hover, a:focus, a:active {
-    color: #383749;
+    color: black;
 }
 
 a:focus {
@@ -91,7 +91,7 @@ a:hover, a:active {
 }
 
 .header-bar-email a {
-    color: #383749;
+    color: black;
     text-decoration: none;
 }
 
@@ -104,11 +104,11 @@ a:hover, a:active {
     border: 0;
     line-height: 1;
     background: #f3f3f3;
-    color: #383749;
+    color: black;
 }
 
 .header-bar-search input[type="search"]::placeholder {
-    color: #757686;
+    color: black;
 }
 
 .header-bar-search input[type="search"]:focus {
@@ -155,7 +155,7 @@ a:hover, a:active {
     position: relative;
     display: block;
     padding: 0 6px;
-    color: #383749;
+    color: black;
 }
 
 .header-bar-menu li a::after {
@@ -459,7 +459,7 @@ a:hover, a:active {
 
 .icon-box .entry-content p {
     margin: 12px 0;
-    color: #757686;
+    color: black;
     line-height: 1.6;
 }
 
@@ -515,7 +515,7 @@ a:hover, a:active {
     border-bottom: 1px solid transparent;
     font-size: 18px;
     line-height: 1;
-    color: #383749;
+    color: black;
     text-decoration: none;
 }
 
@@ -571,7 +571,7 @@ a:hover, a:active {
 }
 
 .course-content .entry-title a {
-    color: #383749;
+    color: black;
 }
 
 .course-content .entry-meta {
@@ -591,7 +591,7 @@ a:hover, a:active {
     position: relative;
     padding-left: 10px;
     margin-left: 5px;
-    color: #757686;
+    color: black;
 }
 
 .course-date::before {
@@ -654,7 +654,7 @@ a.btn {
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #383749;
+    color: black;
     text-decoration: none;
 }
 
@@ -740,7 +740,7 @@ a.btn:hover {
     margin-top: 15px;
     font-size: 16px;
     line-height: 1.8;
-    color: #757686;
+    color: black;
 }
 
 .ezuca-stats {
@@ -767,7 +767,7 @@ a.btn:hover {
 
 .ezuca-stats .stats-count p {
     font-size: 16px;
-    color: #757686;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -863,7 +863,7 @@ a.btn:hover {
 
 .testimonial-slider .entry-content p {
     font-size: 26px;
-    color: #383749;
+    color: black;
 }
 
 .testimonial-slider .testimonial-user {
@@ -957,7 +957,7 @@ a.btn:hover {
     margin-top: 32px;
     font-size: 30px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .latest-news-events .featured-event-content .event-location .fa,
@@ -1015,7 +1015,7 @@ a.btn:hover {
 }
 
 .event-content .entry-title a {
-    color: #383749;
+    color: black;
 }
 
 .event-content .post-author {
@@ -1033,12 +1033,12 @@ a.btn:hover {
     padding-left: 12px;
     margin-top: 14px;
     margin-left: 5px;
-    color: #757686;
+    color: black;
 }
 
 .event-content .post-comments a {
     text-decoration: none;
-    color: #757686;
+    color: black;
 }
 
 .event-content .post-comments::before {
@@ -1054,7 +1054,7 @@ a.btn:hover {
     margin-top: 14px;
     margin-bottom: 0;
     font-size: 16px;
-    color: #757686;
+    color: black;
 }
 
 .event-content .entry-content p {
@@ -1212,7 +1212,7 @@ a.btn:hover {
 }
 
 .breadcrumbs li a {
-    color: #383749;
+    color: black;
     text-decoration: none;
 }
 
@@ -1238,12 +1238,12 @@ a.btn:hover {
     width: 32px;
     height: 38px;
     border: 1px solid #ebebeb;
-    color: #757686;
+    color: black;
     text-decoration: none;
 }
 
 .pagination ul li a .fa {
-    color: #383749;
+    color: black;
 }
 
 .pagination ul li:hover a,
@@ -1259,7 +1259,7 @@ a.btn:hover {
 }
 
 .pagination-results {
-    color: #383749;
+    color: black;
 }
 
 .pagination-results select {
@@ -1294,7 +1294,7 @@ a.btn:hover {
     border: 1px solid #ebebeb;
     font-size: 14px;
     background: #f7f7f7;
-    color: #383749;
+    color: black;
     outline: none;
 }
 
@@ -1387,7 +1387,7 @@ a.btn:hover {
 }
 
 .latest-courses .content-wrap h3 a {
-    color: #383749;
+    color: black;
     text-decoration: none;
 }
 
@@ -1443,7 +1443,7 @@ a.btn:hover {
 }
 
 .popular-tags li a:hover {
-    color: #383749;
+    color: black;
 }
 
 /*--------------------------------------------------------------
@@ -1529,7 +1529,7 @@ a.btn:hover {
 
 .single-course-cont-section {
     margin-top: 24px;
-    color: #757686;
+    color: black;
 }
 
 .single-course-cont-section h2 {
@@ -1537,7 +1537,7 @@ a.btn:hover {
     margin-bottom: 16px;
     font-size: 24px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 ul.green-ticked {
@@ -1590,7 +1590,7 @@ ul.black-doted {
     margin-bottom: 16px;
     font-size: 24px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .single-course-accordion-cont .number-of-lectures,
@@ -1645,7 +1645,7 @@ ul.black-doted {
 .single-course-accordion-cont h3 {
     font-size: 16px;
     font-weight: 400;
-    color: #757686;
+    color: black;
 }
 
 .single-course-accordion-cont .lecture-group-title {
@@ -1654,7 +1654,7 @@ ul.black-doted {
 
 .single-course-accordion-cont ul {
     list-style: none;
-    color: #757686;
+    color: black;
 }
 
 .single-course-accordion-cont ul li {
@@ -1663,12 +1663,12 @@ ul.black-doted {
 
 .single-course-accordion-cont .lecture-title {
     width: calc(100% - 280px);
-    color: #757686;
+    color: black;
 }
 
 .single-course-accordion-cont .lectures-preview,
 .single-course-accordion-cont .lectures-time {
-    color: #757686;
+    color: black;
 }
 
 .instructors-info {
@@ -1681,7 +1681,7 @@ ul.black-doted {
     border-bottom: 1px solid #ebebeb;
     font-size: 24px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .instructors-stats {
@@ -1730,7 +1730,7 @@ ul.black-doted {
 .instructors-details h2 {
     font-size: 30px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .instructors-details .course-teacher {
@@ -1745,7 +1745,7 @@ ul.black-doted {
 }
 
 .instructors-details .entry-content {
-    color: #757686;
+    color: black;
     line-height: 1.8;
 }
 
@@ -1761,7 +1761,7 @@ ul.black-doted {
 .related-courses .entry-heading h2 {
     font-size: 24px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .related-courses .entry-heading a {
@@ -1831,7 +1831,7 @@ ul.black-doted {
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #757686;
+    color: black;
     text-align: center;
 }
 
@@ -1905,18 +1905,18 @@ ul.black-doted {
 .team-heading h2 {
     font-size: 42px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .about-heading p,
 .team-heading p {
     margin-top: 20px;
-    color: #757686;
+    color: black;
 }
 
 .about-stories,
 .about-values {
-    color: #757686;
+    color: black;
 }
 
 .about-stories h3,
@@ -1924,7 +1924,7 @@ ul.black-doted {
     margin-top: 48px;
     font-size: 24px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .about-stories p,
@@ -1966,7 +1966,7 @@ ul.black-doted {
     margin-top: 24px;
     font-size: 20px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .team-member h4 {
@@ -2082,7 +2082,7 @@ ul.black-doted {
 
 .blog-post-content-wrap .post-comments a {
     text-decoration: none;
-    color: #757686;
+    color: black;
 }
 
 .blog-post-content-wrap .post-comments::before {
@@ -2097,7 +2097,7 @@ ul.black-doted {
 .blog-post-content-wrap .entry-content {
     margin-top: 12px;
     margin-bottom: 0;
-    color: #757686;
+    color: black;
 }
 
 /*--------------------------------------------------------------
@@ -2178,7 +2178,7 @@ ul.black-doted {
     padding-bottom: 24px;
     margin-top: 50px;
     border-bottom: 1px solid #ebebeb;
-    color: #757686;
+    color: black;
 }
 
 .single-post-wrap blockquote {
@@ -2188,7 +2188,7 @@ ul.black-doted {
     margin-bottom: 32px;
     font-size: 20px;
     font-weight: 300;
-    color: #383749;
+    color: black;
 }
 
 .single-post-wrap blockquote::before {
@@ -2216,7 +2216,7 @@ ul.black-doted {
 .single-post-wrap h3 {
     font-size: 24px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .tags-links ul {
@@ -2255,7 +2255,7 @@ ul.black-doted {
 .related-blog-posts .entry-heading h2 {
     font-size: 24px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .related-blog-posts .entry-heading a {
@@ -2328,7 +2328,7 @@ ul.author-social-profile li:hover .fa {
 }
 
 .author-details p {
-    color: #757686;
+    color: black;
     line-height: 1.8;
 }
 
@@ -2348,7 +2348,7 @@ ul.author-social-profile li:hover .fa {
     margin-bottom: 0;
     font-size: 24px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .post-comments-wrap .comment-list {
@@ -2386,7 +2386,7 @@ ul.author-social-profile li:hover .fa {
 
 .post-comments-wrap .comment-author .fn a {
     font-size: 18px;
-    color: #383749;
+    color: black;
 }
 
 .post-comments-wrap .comment-author .comment-meta a {
@@ -2398,7 +2398,7 @@ ul.author-social-profile li:hover .fa {
 
 .post-comments-wrap p {
     margin-top: 5px;
-    color: #757686;
+    color: black;
 }
 
 .post-comments-wrap .reply {
@@ -2414,7 +2414,7 @@ ul.author-social-profile li:hover .fa {
     font-size: 12px;
     font-weight: 500;
     line-height: 1;
-    color: #383749;
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
@@ -2462,7 +2462,7 @@ ul.author-social-profile li:hover .fa {
     margin-top: 20px;
     border: 1px solid #e5e5e5;
     line-height: 1;
-    color: #383749;
+    color: black;
     outline: none;
 }
 
@@ -2530,7 +2530,7 @@ ul.author-social-profile li:hover .fa {
     margin-bottom: 12px;
     font-size: 36px;
     font-weight: 400;
-    color: #383749;
+    color: black;
 }
 
 .contact-form input[type="text"],
@@ -2541,7 +2541,7 @@ ul.author-social-profile li:hover .fa {
     margin-top: 18px;
     border: 1px solid #ebebeb;
     background: #f7f7f7;
-    color: #383749;
+    color: black;
 }
 
 .contact-form input[type="text"]:focus,
@@ -2577,7 +2577,7 @@ ul.author-social-profile li:hover .fa {
 .contact-info p {
     margin-top: 24px;
     line-height: 1.8;
-    color: #757686;
+    color: black;
 }
 
 .contact-info ul {
@@ -2587,7 +2587,7 @@ ul.author-social-profile li:hover .fa {
 .contact-info li {
     margin-top: 32px;
     font-size: 24px;
-    color: #383749;
+    color: black;
 }
 
 .contact-info li span {
@@ -2616,14 +2616,14 @@ ul.author-social-profile li:hover .fa {
 --------------------------------------------------------------*/
 .footer-widgets {
     padding: 60px 0;
-    color: #757686;
+    color: black;
 }
 
 .foot-about p {
     margin-top: 40px;
     font-size: 16px;
     line-height: 1.6;
-    color: #757686;
+    color: black;
 }
 
 p.footer-copyright {
@@ -2633,7 +2633,7 @@ p.footer-copyright {
 .footer-widgets h2 {
     margin-bottom: 40px;
     font-size: 20px;
-    color: #383749;
+    color: black;
 }
 
 .footer-widgets ul {
@@ -2647,7 +2647,7 @@ p.footer-copyright {
 }
 
 .footer-widgets ul li a {
-    color: #757686;
+    color: black;
     text-decoration: none;
 }
 
@@ -2718,10 +2718,214 @@ background-color: gray;
 }
 
 .footer-bar-nav ul li a {
-    color: #757686;
+    color: black;
     text-decoration: none;
 }
 
 .footer-bar-nav ul li a:hover {
     color: #34d986;
+}
+/*--login--*/
+.register {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.login-left h3, .login-right h3 {
+	color:#19c880;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+.login-left p, .login-right p {
+	color: black;
+	display: block;
+	font-size:0.85em;
+	margin: 0 0 1.5em 0;
+	line-height: 1.8em;
+}
+.acount-btn {
+	background:#19c880;
+	color: #FFF;
+	font-size: 0.8em;
+	padding: 0.7em 1.2em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.acount-btn:hover, .login-right input[type="submit"]:hover{
+	background:#000;
+	text-decoration:none;
+	color:#fff;
+}
+.login-right form {
+	padding: 1em 0;
+}
+.login-right form div {
+	padding: 0 0 1.5em 0;
+}
+.login-right span {
+	font-size:0.85em;
+	padding-bottom: 0.2em;
+	display: block;
+}
+.login-right input[type="text"] {
+	border: 1px solid #DDDBDB;
+	outline-color:#19c880;
+	width: 96%;
+	font-size:0.8125em;
+	padding:10px;
+}
+.login-right input[type="submit"] {
+	background:#19c880;
+	color: #FFF;
+	font-size: 0.8em;
+	padding: 0.7em 1.2em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	text-transform: uppercase;
+	border:none;
+	outline:none;
+}
+.login-right input[type="submit"]:hover{
+	background:#000;
+}
+a.forgot {
+	font: 300 14px/25px Lato, sans-serif;
+}
+h4.title {
+	color: #000;
+	margin-bottom: 0.5em;
+	font: 300 18px/25px Lato, sans-serif;
+	text-transform: uppercase;
+	border-bottom: 1px solid #DFDDDD;
+	padding-bottom: 13px;
+}
+p.cart {
+	line-height: 1.8em;
+	font: 300 16px/25px Lato, sans-serif;
+}
+
+/*--register--*/
+.register-top-grid h3, .register-bottom-grid h3 {
+	color:#df1f26;
+	font-size: 1em;
+	padding-bottom: 5px;
+	margin: 0;
+	font-weight:600;
+}
+.register-top-grid div, .register-bottom-grid div {
+	width: 48%;
+	float: left;
+	margin: 10px 0;
+}
+.register-top-grid span, .register-bottom-grid span {
+	font-size:0.85em;
+	padding-bottom: 0.2em;
+	display: block;
+}
+.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+	border: 1px solid #EEE;
+	outline-color:#FF5B36;
+	width: 96%;
+	font-size: 1em;
+	padding: 0.5em;
+}
+.checkbox {
+	margin-bottom: 4px;
+	padding-left: 27px;
+	font-size: 1.1em;
+	line-height: 27px;
+	cursor: pointer;
+}
+.checkbox {
+	position: relative;
+	font-size:0.85em;
+	color:#555;
+}
+.checkbox:last-child {
+	margin-bottom: 0;
+}
+.news-letter {
+	color: #555;
+	font-weight:600;
+	font-size: 0.85em;
+	margin-bottom: 1em;
+	display: block;
+	text-transform: uppercase;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	clear: both;
+}
+.checkbox i {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	display: block;
+	width:20px;
+	height:20px;
+	outline: none;
+	border: 2px solid #D2CF99;
+}
+.checkbox input + i:after {
+	content: '';
+	background: url("../images/tick1.png") no-repeat 1px 2px;
+	top: -1px;
+	left: -1px;
+	width: 15px;
+	height: 15px;
+	font: normal 12px/16px FontAwesome;
+	text-align: center;
+}
+.checkbox input + i:after {
+	position: absolute;
+	opacity: 0;
+	transition: opacity 0.1s;
+	-o-transition: opacity 0.1s;
+	-ms-transition: opacity 0.1s;
+	-moz-transition: opacity 0.1s;
+	-webkit-transition: opacity 0.1s;
+}
+.checkbox input {
+	position: absolute;
+	left: -9999px;
+}
+.checkbox input:checked + i:after {
+	opacity: 1;
+}
+.news-letter:hover {
+	color:#00BFF0;
+}
+.register-but{
+	margin-top:1em;
+}
+.register-but form input[type="submit"] {
+	background:#df1f26;
+	color: #FFF;
+	font-size: 0.8em;
+	padding: 0.8em 2em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	display: inline-block;
+	text-transform: uppercase;
+	border:none;
+	outline:none;
+}
+.register-but input[type="submit"]:hover {
+	background:#000;
+}
+.register-bottom-grid {
+	margin-top:3em;
 }
