@@ -5,8 +5,8 @@
             <div class="col-12">
                 <div class="breadcrumbs">
                     <ul class="flex flex-wrap align-items-center p-0 m-0">
-                        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                        <li>Courses</li>
+                        <li><a href="#"><i class="fa fa-home"></i> Trang chủ</a></li>
+                        <li>Những khóa học</li>
                     </ul>
                 </div><!-- .breadcrumbs -->
             </div><!-- .col -->

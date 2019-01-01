@@ -6,7 +6,7 @@
 
 	<div class="container">
 		<div class="register">
-			<form:form action="${pageContext.request.contextPath}/registrationPage"
+			<form:form action="${pageContext.request.contextPath}/registrationPage" 
 				 class="form-horizontal" role="form">
 				<div class="register-top-grid">
 					<h3>THÔNG TIN NGƯỜI DÙNG</h3>

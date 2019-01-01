@@ -6,7 +6,7 @@
                 <div class="breadcrumbs">
                     <ul class="flex flex-wrap align-items-center p-0 m-0">
                         <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-                        <li>Contact</li>
+                        <li>Liên hệ</li>
                     </ul>
                 </div><!-- .breadcrumbs -->
             </div><!-- .col -->
@@ -21,28 +21,28 @@
 
             <div class="col-12 col-lg-6">
                 <div class="contact-form">
-                    <h3>Contact Form</h3>
+                    <h3>Hãy liên hệ với chúng tôi</h3>
 
                     <form>
-                        <input type="text" placeholder="Your Name">
-                        <input type="email" placeholder="Your Email">
-                        <input type="text" placeholder="Subject">
-                        <textarea placeholder="Your Message" rows="4"></textarea>
-                        <input type="submit" value="Send Message">
+                        <input type="text" placeholder="Họ và tên">
+                        <input type="email" placeholder="Địa chỉ email của bạn">
+                        <input type="text" placeholder="Nội dung">
+                        <textarea placeholder="Tin nhắn" rows="4"></textarea>
+                        <input type="submit" value="Gửi tin nhắn">
                     </form>
                 </div><!-- .contact-form -->
             </div><!-- .col -->
 
             <div class="col-12 col-lg-6">
                 <div class="contact-info">
-                    <h3>Contact Information</h3>
+                    <h3>Thông tin liên hệ của chúng tôi</h3>
 
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese mollit anim id est laborum. </p>
+                    <p>Hãy liên hệ với chúng tôi ngay khi bạn chưa rõ về cách phối hợp nhà trường giáo dục con trẻ</p>
 
                     <ul class="p-0 m-0">
-                        <li><span>Location:</span>40 Baria Sreet 133/2 NewYork City, US</li>
-                        <li><span>Email:</span><a href="#">info.deeercreative@gmail.com</a></li>
-                        <li><span>Phone:</span><a href="#">(203) 123-6666</a></li>
+                        <li><span>Địa chỉ:</span>Cầu Giấy - Hà Nội - Việt Nam</li>
+                        <li><span>Email:</span><a href="#">montessori@gmail.com</a></li>
+                        <li><span>Điện thoại:</span><a href="#">(+88) 111 555 666</a></li>
                     </ul>
                 </div><!-- .contact-info -->
             </div><!-- .col -->
